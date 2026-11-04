@@ -16,15 +16,15 @@
 <link rel="stylesheet" href="styles.css">
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
 <div id="root"></div>
 <noscript>Saffron &amp; Sage Kitchen is a React app and needs JavaScript enabled.</noscript>
 <!-- COURSE SKILL (Step 5 — React): the whole interface below is built from
-     React components with props and state. The same JSX source lives in
-     src/ as study code; Babel standalone compiles app.js in the browser so
-     GitHub Pages can host the component app as static files. -->
-<script type="text/babel" data-presets="react" src="app.js"></script>
+     React components with props and state. app.js holds the JSX source
+     (also split per component in src/ as study code); app.compiled.js is
+     that same source compiled ahead of time, so GitHub Pages can host
+     the component app as plain static files. -->
+<script src="app.compiled.js"></script>
 </body>
 </html>
