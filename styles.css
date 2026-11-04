@@ -1,0 +1,47 @@
+/* Saffron & Sage Kitchen — palette: paprika #B3402A, saffron #E9A426, sage #6B7F59, cream #FDF6E9, ink #22201B, clay #EFE3D3 */
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;background:#FDF6E9;color:#22201B}
+a{color:#B3402A}button{font-family:inherit;cursor:pointer}
+.topbar{background:#22201B;color:#FDF6E9;padding:.5rem 1rem;text-align:center;font-size:.9rem}
+header.site{background:#FDF6E9;border-bottom:3px solid #E9A426;position:sticky;top:0;z-index:20}
+.nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.8rem 1rem;flex-wrap:wrap}
+.logo{font-size:1.5rem;font-weight:bold;color:#B3402A;text-decoration:none}
+.logo span{color:#6B7F59}
+.navlinks{display:flex;gap:.5rem;margin-left:auto;flex-wrap:wrap}
+.navlinks button{background:none;border:none;font-size:1rem;padding:.4rem .7rem;border-radius:20px}
+.navlinks button.active{background:#B3402A;color:#fff}
+.boxbtn{background:#E9A426!important;border:none;padding:.5rem 1rem!important;font-weight:bold}
+.hero{background:linear-gradient(135deg,#B3402A,#8f3120);color:#fff;padding:3rem 1rem;text-align:center}
+.hero h1{font-size:2.6rem;margin:.2rem 0}.hero p{max-width:640px;margin:.6rem auto;font-size:1.1rem;line-height:1.5}
+.hero .cta{background:#E9A426;color:#22201B;border:none;padding:.8rem 1.6rem;border-radius:30px;font-size:1.05rem;font-weight:bold}
+.stats{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.4rem}
+.stats div{background:rgba(255,255,255,.14);padding:.7rem 1.1rem;border-radius:12px}
+.wrap{max-width:1100px;margin:0 auto;padding:1.5rem 1rem 3rem}
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin:1rem 0}
+.chip{border:2px solid #6B7F59;background:#fff;border-radius:20px;padding:.35rem .9rem}
+.chip.active{background:#6B7F59;color:#fff}
+.filters input,.filters select{padding:.55rem;border:2px solid #EFE3D3;border-radius:10px;font-size:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.2rem}
+.card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid #EFE3D3;display:flex;flex-direction:column}
+.card .art{height:130px;display:flex;align-items:center;justify-content:center;font-size:3.4rem}
+.card .body{padding:1rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+.card h3{margin:0;font-size:1.15rem}.meta{color:#6B7F59;font-size:.9rem}
+.price{font-weight:bold;color:#B3402A;font-size:1.1rem}
+.card .row{display:flex;gap:.5rem;margin-top:auto}
+.addbtn{background:#B3402A;color:#fff;border:none;padding:.55rem 1rem;border-radius:10px;flex:1}
+.ghost{background:#fff;border:2px solid #B3402A;color:#B3402A;padding:.5rem .8rem;border-radius:10px}
+.fav{background:none;border:none;font-size:1.3rem;align-self:flex-start}
+.modalback{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:50;padding:1rem}
+.modal{background:#FDF6E9;max-width:560px;width:100%;max-height:90vh;overflow:auto;border-radius:16px;padding:1.5rem}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(420px,94vw);background:#fff;z-index:60;box-shadow:-4px 0 24px rgba(0,0,0,.25);padding:1.2rem;overflow:auto}
+.qty{display:flex;gap:.4rem;align-items:center}.qty button{width:30px;height:30px;border-radius:50%;border:2px solid #B3402A;background:#fff;color:#B3402A;font-weight:bold}
+form label{display:block;margin:.7rem 0 .25rem;font-weight:bold}
+form input,form select,form textarea{width:100%;padding:.6rem;border:2px solid #EFE3D3;border-radius:10px;font-size:1rem;background:#fff}
+.err{color:#B3402A;font-size:.9rem}.ok{background:#eef4e8;border:2px solid #6B7F59;padding:1rem;border-radius:12px}
+.summary{background:#fff;border:2px solid #EFE3D3;border-radius:14px;padding:1rem}
+.summary div{display:flex;justify-content:space-between;padding:.25rem 0}
+.faq{border:1px solid #EFE3D3;background:#fff;border-radius:12px;margin:.6rem 0}
+.faq button{width:100%;text-align:left;background:none;border:none;padding:1rem;font-size:1.05rem;font-weight:bold}
+.faq p{padding:0 1rem 1rem;margin:0;line-height:1.5}
+footer{background:#22201B;color:#FDF6E9;padding:2rem 1rem;text-align:center}
+.banner{background:#FFF3D6;border:2px solid #E9A426;padding:.7rem 1rem;border-radius:10px;margin:1rem 0;font-size:.95rem}
+@media(max-width:600px){.hero h1{font-size:2rem}}
