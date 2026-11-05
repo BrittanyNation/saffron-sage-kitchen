@@ -40,4 +40,9 @@ Paprika `#B3402A`, saffron `#E9A426`, sage `#6B7F59`, cream `#FDF6E9`, clay `#EF
 - `app.js` — the full React app in JSX, commented as study code
 - `src/` — the same components split into per-file study copies, with a guide
 - `styles.css` — the Saffron & Sage design system
+- `images/` — real food photography downloaded from Pexels under the Pexels free license
 - `og-image.png` — 1200×627 social preview image in the project palette
+
+## Photography
+
+The hero and recipe images are real photographs sourced from Pexels and stored locally in `images/` so the live site does not depend on hotlinks.
